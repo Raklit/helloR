@@ -1,6 +1,19 @@
 ---
 title: "Дедуктивный метод в преподавательской и аналитической работе"
-output: html_notebook
+output:
+  pdf_document: 
+    latex_engine: xelatex
+    extra_dependencies:
+      inputenc: [utf8]
+      babel: [english, russian]
+      fontspec: null
+      fontenc: T2A
+      droidserif: default
+      droidsans: defaultsans
+      
+  html_notebook: default
+  html_document:
+    df_print: paged
 ---
 
 ## Что такое дедукция?
@@ -134,6 +147,8 @@ Johan van Benthem, Hans van Ditmarsch, Jan van Eijck, Jan Jaspars. Logic in Acti
 2. Фотографии взяты из открытого источника [www.pexels.com](https://www.pexels.com)
 
 ---
+
+\pagebreak
 
 ### Всё что не вышло показать в статье
 
